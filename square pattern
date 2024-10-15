@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int l,b;
+    printf("Enter l,b:");
+    scanf("%d%d",&l,&b);
+    for(int i=1;i<=l;i++)
+    {
+        printf("*  ");
+    }
+    printf("\n");
+    for(int j=1;j<=b;j++)
+    {
+        printf("*             *\n");
+    }
+    for(int k=1;k<=l;k++)
+    {
+        printf("*  ");
+    }
+}
